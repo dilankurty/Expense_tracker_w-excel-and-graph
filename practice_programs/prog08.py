@@ -12,8 +12,8 @@ for i in range(10):
             print("Please enter an integer.")
             continue   
 
-odd_nums = []
+odd_nums = 0
 for num in nums:
     if num%2 != 0:
-        odd_nums.append(num)
-print(f"Odd numbers: {len(odd_nums)}")
+        odd_nums += 1
+print(f"Odd numbers: {odd_nums}")
